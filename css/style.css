@@ -283,6 +283,7 @@ img {
   background-color: var(--second-btn-color);
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1200px;
 }
 
 .team-card {
