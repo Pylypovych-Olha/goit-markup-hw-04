@@ -330,12 +330,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin: 0;
+  margin-bottom: 16px;
 }
 .icon-list {
   display: flex;
-  margin-bottom: 30px;
-  margin-left: 32px;
-  margin-right: 32px;
 }
 .icon-list .icon-link + .icon-link {
   margin-left: 10px;
@@ -584,11 +582,13 @@ img {
 }
 .logo-text {
   display: flex;
+  align-items: baseline;
 }
 
 /*--------join-footer---------*/
 
 .join-title {
+  margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
